@@ -21,16 +21,4 @@ cy.get('[ng-class="{ active: isViewActive(\'parameters\') }"] > a').click()
 
 //assert that New parameter button is visible
 cy.get(':nth-child(3) > .btn').should('be.visible')
-
-
-
-
-
-
-
-
-
-
-
-
 })
